@@ -114,7 +114,7 @@ export default {
   .slogan {
       font-size: 18px;
       text-align: center;
-      margin: 1rem 1 0.5rem 1;
+      margin: 1rem 1rem 0.5rem 1rem;
   }
 
   .details {
