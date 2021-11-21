@@ -17,6 +17,15 @@ export default {
 </script>
 
 <style scoped>
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -105,6 +114,7 @@ export default {
   .slogan {
       font-size: 18px;
       text-align: center;
+      margin: 1rem 1 0.5rem 1;
   }
 
   .details {
